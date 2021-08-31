@@ -1,0 +1,94 @@
+/*.....Tablet Layout.....*/
+@media only screen and (min-width: 769px) and (max-width:991px){
+
+    .inner_menu {
+        background: none;
+        min-height: 0;
+        padding: 0;
+    }
+    .inner_menu::after {
+        background: none;
+    }
+    .mean-container .mean-nav {
+        margin-top: 0;
+        width: 80%;
+    }
+       
+    .mean-container .mean-bar {
+        background: #008693;;
+
+    }
+    .inner_banner h2 {
+        font-size: 47px;
+    }
+
+    .logo_area {
+       
+        width: 760px;
+        padding: 0;
+    }
+    h2 {
+        padding-bottom: 15px;
+
+    }
+    .logo_area img {
+        padding-bottom: 0;
+        padding-top: 20px;
+    }
+    .mean-container .mean-nav ul li a.mean-expand {
+        height: 24px;
+    }
+}
+@media only screen and (min-width:200px) and (max-width:768px){
+
+    .inner_menu {
+        min-height: 0;
+        padding:  0;
+        
+    }
+
+    .mean-container .mean-nav ul li a.mean-expand {
+        height: 24px;
+    }
+    .mean-container .mean-bar {
+        background: #008693;;
+
+    }
+    
+    .logo_area {
+       
+        width: 481px;
+        padding: 0;
+        float: none;
+        margin: 0 auto;
+        text-align: center;
+        background-color: #89E1FB;
+    }
+    .logo_area img {
+        padding-bottom: 0;
+        padding-top: 20px;
+    }
+    h2 {
+        padding-bottom: 15px;
+        color: #006064;
+
+    }
+    
+    .inner_banner h3 {
+        font-size: 25px;
+    }
+    #banner_area {
+        padding-bottom: 20px;
+    }
+    #work_area {
+        padding: 20px 0;
+    }
+
+    .left_copyright {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .rightt_copyright{
+        width: 100%;
+    }
+}
